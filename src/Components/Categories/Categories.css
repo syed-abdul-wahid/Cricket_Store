@@ -1,0 +1,30 @@
+.Category__Container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "Batting WicketKeeping Bowling" "Batting Accessories Bowling";
+    gap: 2rem;
+    height : 80vh;
+    }
+
+.Category__Container div {
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 0.7rem;
+}
+
+.Category__Batting {
+    grid-area: Batting;
+}
+
+.Category__Bowling {
+    grid-area: Bowling
+}
+
+.Category__WicketKeeping {
+    grid-area: WicketKeeping
+} 
+.Category__Accessories {
+    grid-area: Accessories
+}
