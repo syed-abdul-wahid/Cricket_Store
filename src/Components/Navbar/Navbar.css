@@ -1,0 +1,32 @@
+.Navbar__Primary {
+  display: flex;
+  justify-content: flex-end;
+  height: 3rem;
+  align-items: center;
+
+}
+.Navbar__Primary i {
+    padding : 1.5rem;
+}
+#Logo {
+    position: absolute;
+    height: 7rem;
+}
+
+.Navbar__Secondary {
+  background-color: black;
+  height: 3rem;
+  display: flex;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+.Navbar__Secondary span {
+    padding : 1.1rem;
+    color : white;
+}
+.Navbar span {
+  padding: 1rem;
+}
