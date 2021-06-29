@@ -1,15 +1,17 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Carousels.css";
+import Carousel1 from "../../Assets/Carousel1.jpg";
+import Carousel2 from "../../Assets/Carousel2.jpg";
+import Carousel3 from "../../Assets/Carousel3.jpg";
 const Carousels = () => {
   return (
     <>
-      <Carousel className="Car">
+      <Carousel className="Carousel">
         <Carousel.Item>
           <img
-            style={{ height: "450px", width: "100%" }}
-            className="d-block w-10"
-            src="https://wallpapercave.com/wp/wp3725739.jpg"
+            className="d-block w-10 Carousel__Image"
+            src={Carousel1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -19,9 +21,8 @@ const Carousels = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "450px", width: "100%" }}
-            className="d-block w-10"
-            src="https://wallpapercave.com/wp/wp3725739.jpg"
+            className="d-block w-10 Carousel__Image"
+            src={Carousel2}
             alt="Second slide"
           />
 
@@ -32,9 +33,8 @@ const Carousels = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "450px", width: "100%" }}
-            className="d-block w-10"
-            src="https://wallpapercave.com/wp/wp3725739.jpg"
+            className="d-block w-10 Carousel__Image"
+            src={Carousel3}
             alt="Third slide"
           />
 

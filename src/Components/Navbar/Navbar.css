@@ -3,14 +3,13 @@
   justify-content: flex-end;
   height: 3rem;
   align-items: center;
-
 }
 .Navbar__Primary i {
-    padding : 1.5rem;
+  padding: 1.5rem;
 }
 #Logo {
-    position: absolute;
-    height: 7rem;
+  position: absolute;
+  height: 7rem;
 }
 
 .Navbar__Secondary {
@@ -24,9 +23,15 @@
   margin-left: 5%;
 }
 .Navbar__Secondary span {
-    padding : 1.1rem;
-    color : white;
+  padding: 1.1rem;
+  color: white;
 }
 .Navbar span {
   padding: 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .Navbar__Secondary span {
+    display: none;
+  }
 }
