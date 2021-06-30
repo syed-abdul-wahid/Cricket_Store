@@ -4,16 +4,13 @@ const Categories = () => {
   return (
     <>
       <div className="Category__Container">
-        <h1>SHOP BY CATAGORY</h1>
+        <h1>SHOP BY CATEGORY</h1>
         <div className="Category__Grid">
           <div className="Category__Batting">
             <img
               src=" https://cdn.shopify.com/s/files/1/2653/2386/products/image_77ffadbd-5c0d-4727-aa82-ae6d0cb1e06f_1800x1800.jpg?v=1615240632"
               alt="bats"
             />
-            <div className="batting">
-              <div className="Batting__Text">Batting</div>
-            </div>
           </div>
           <div className="Category__Bowling">
             <img
