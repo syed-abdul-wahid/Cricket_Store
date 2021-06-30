@@ -1,5 +1,5 @@
 .Category__Container {
-    margin-top: 3rem
+  margin-top: 3rem;
 }
 
 .Category__Grid {
@@ -8,8 +8,8 @@
   grid-template-rows: auto;
   grid-template-areas: "Batting WicketKeeping Bowling" "Batting Accessories Bowling";
   gap: 2rem;
-  height: 80vh;
-  margin-top: 3rem
+  height: 60vh;
+  margin: 15px 35px;
 }
 
 .Category__Grid div {
@@ -25,9 +25,19 @@
 .Category__Batting img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  border-radius: 20px;
+  object-fit: cover;
 }
-
+.Category__Batting:hover {
+  opacity: 0.6;
+  transition: 0.5s ease;
+}
+.Batting__Text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 .Category__Bowling {
   grid-area: Bowling;
 }
@@ -35,6 +45,7 @@
 .Category__Bowling img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -43,7 +54,8 @@
 }
 .Category__WicketKeeping img {
   width: 100%;
-  max-height: 100%;
+  height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 .Category__Accessories {
@@ -51,9 +63,9 @@
 }
 .Category__Accessories img {
   width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  height: 100%;
+  border-radius: 20px;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }

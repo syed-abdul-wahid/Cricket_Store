@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const BowlingScreen = () => {
-  return <div>Bowling Screen</div>;
+  return (
+    <>
+      <Navbar />
+      <div>Bowling Screen</div>;
+    </>
+  );
 };
 
 export default BowlingScreen;

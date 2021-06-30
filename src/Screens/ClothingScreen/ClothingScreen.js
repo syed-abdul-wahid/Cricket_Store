@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const ClothingScreen = () => {
-  return <div>Clothing Screen</div>;
-};
+  return (
+    <>
+      <Navbar />
+      <div>Clothing Screen</div>;
+    </>
+  );
+}
 
 export default ClothingScreen;

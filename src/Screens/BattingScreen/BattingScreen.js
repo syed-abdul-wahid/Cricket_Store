@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const BattingScreen = () => {
-  return <div>Batting Screen</div>;
+  return (
+    <>
+      <Navbar />
+      <div>Batting Screen</div>;
+    </>
+  );
 };
 
 export default BattingScreen;
