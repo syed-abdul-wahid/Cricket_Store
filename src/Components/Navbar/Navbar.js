@@ -10,7 +10,7 @@ function Navbar() {
   };
   return (
     <>
-      <img id="Logo" src={Logo} alt="Logo" />
+      {/* <img id="Logo" src={Logo} alt="Logo" /> */}
       <div className="Navbar__Primary">
         <i>
           <FaShoppingCart size={28} />
@@ -26,16 +26,24 @@ function Navbar() {
           </Link>
         </span>
         <span>
-          <Link style={LinkStyle} to="/Bowling">Bowling</Link>
+          <Link style={LinkStyle} to="/Bowling">
+            Bowling
+          </Link>
         </span>
         <span>
-          <Link style={LinkStyle} to="/WicketKeeping">WicketKeeping</Link>
+          <Link style={LinkStyle} to="/WicketKeeping">
+            WicketKeeping
+          </Link>
         </span>
         <span>
-          <Link style={LinkStyle} to="/Clothing">Clothing</Link>
+          <Link style={LinkStyle} to="/Clothing">
+            Clothing
+          </Link>
         </span>
         <span>
-          <Link style={LinkStyle} to="/Accessories">Accessories</Link>
+          <Link style={LinkStyle} to="/Accessories">
+            Accessories
+          </Link>
         </span>
       </div>
     </>

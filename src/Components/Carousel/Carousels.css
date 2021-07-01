@@ -1,9 +1,10 @@
 .Carousel {
+  background-color: black;
 }
 
 .Carousel__Image {
   height: 80vh;
   width: 100vw;
   object-fit: cover;
-  opacity: 0.9;
+  opacity: 0.5;
 }

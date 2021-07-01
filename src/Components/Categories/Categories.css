@@ -9,12 +9,11 @@
   grid-template-rows: auto;
   grid-template-areas: "Batting WicketKeeping Bowling" "Batting Accessories Bowling";
   gap: 2rem;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .Category__Grid div {
-  background-color: lightgray;
   text-align: center;
   border-radius: 0.7rem;
 }
