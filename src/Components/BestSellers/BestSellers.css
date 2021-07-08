@@ -1,0 +1,27 @@
+.BestSeller__Container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.BestSeller__Flex {
+  display: flex;
+  justify-content: center;
+
+  gap: 1rem;
+}
+.BestSeller__FlexItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.BestSeller__FlexItem--Image {
+  width: 20vw;
+  height: auto;
+  opacity: 0.9;
+}
+.BestSeller__FlexItem--Name {
+  margin-left: 1rem;
+}
+.BestSeller__FlexItem--Price {
+  margin-left: 1rem;
+}

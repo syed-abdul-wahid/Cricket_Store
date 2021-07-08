@@ -1,12 +1,10 @@
 .Category__Container {
   margin-top: 3rem;
-  height: 60vh;
 }
 
 .Category__Grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
   grid-template-areas: "Batting WicketKeeping Bowling" "Batting Accessories Bowling";
   gap: 2rem;
   margin-left: 10%;

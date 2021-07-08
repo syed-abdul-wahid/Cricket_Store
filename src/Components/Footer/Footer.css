@@ -1,0 +1,17 @@
+.Footer_Container{
+    margin-top: 0.5rem;
+    background-color: black;
+}
+
+.Footer_Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+    height:60vh;
+
+}
+.Footer_Grid div{
+    border:2px solid black;
+    text-align: center;
+    color: azure;
+}

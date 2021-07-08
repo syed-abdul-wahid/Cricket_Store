@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { FaShoppingCart, FaUserCircle } from "react-icons/fa";
-import Logo from "../../Assets/Logo.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   const LinkStyle = {
@@ -10,7 +9,6 @@ function Navbar() {
   };
   return (
     <>
-      {/* <img id="Logo" src={Logo} alt="Logo" /> */}
       <div className="Navbar__Primary">
         <i>
           <FaShoppingCart size={28} />
