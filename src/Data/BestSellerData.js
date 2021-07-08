@@ -9,23 +9,27 @@ export const BestSellerData = [
     Brand: "SG",
     Price: 12000,
     Image: Bat1,
+    ID: 1,
   },
   {
     Name: "Leather Ball",
     Brand: "Kookaburra",
     Price: "800",
     Image: Ball,
+    ID: 2,
   },
   {
     Name: "Shoes",
     Brand: "Puma",
     Price: "3500",
     Image: Shoes,
+    ID: 3,
   },
   {
     Name: "Tennis Ball Bat",
     Brand: "DSC",
     Price: "2000",
     Image: Bat2,
+    ID: 4,
   },
 ];

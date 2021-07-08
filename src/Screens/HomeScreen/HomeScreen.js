@@ -3,19 +3,17 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Carousels from "../../Components/Carousel/Carousels";
 import Categories from "../../Components/Categories/Categories";
 import BestSellers from "../../Components/BestSellers/BestSellers";
-import ShopByProduct from "../../Components/ShopByProduct/ShopByProduct";
+import ShopByBrand from "../../Components/ShopByBrand/ShopByBrand";
 import Footer from "../../Components/Footer/Footer";
 function HomeScreen() {
- 
-    return (
+  return (
     <div>
       <Navbar />
       <Carousels />
       <Categories />
       <BestSellers />
-      <ShopByProduct/>
-      <Footer/>
-      
+      <ShopByBrand />
+      <Footer />
     </div>
   );
 }

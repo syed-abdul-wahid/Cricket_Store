@@ -1,0 +1,14 @@
+.ShopByProduct__Container {
+  margin-top: 3rem;
+  text-align: center;
+}
+.ShopByProduct__Flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ShopByProduct__Flex img {
+  padding: 1rem;
+  width: 20%;
+  height: auto;
+}

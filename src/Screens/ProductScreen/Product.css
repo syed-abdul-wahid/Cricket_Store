@@ -1,0 +1,31 @@
+.Product__Container {
+  display: flex;
+  padding: 5rem;
+}
+
+.Product__Left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Product__Left img {
+  opacity: 0.9;
+  width: 60%;
+  height: auto;
+}
+.Product__Right {
+  width: 50%;
+}
+.Product__Right {
+  display: flex;
+  flex-direction: column;
+}
+
+.Product__Right button {
+  border: none;
+  width: 10rem;
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.6rem;
+}

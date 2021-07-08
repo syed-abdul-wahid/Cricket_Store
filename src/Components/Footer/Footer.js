@@ -7,13 +7,6 @@ const Footer = () => {
         <div className="Footer_Grid">
           <div>
             <h6>PRODUCTS </h6>
-            <span>
-              <ul>ADDIDAS</ul>
-              <ul>NIKE</ul>
-              <ul>PUMA</ul>
-              <ul>MRF</ul>
-
-            </span>
           </div>
 
           <div>TOP BRANDS</div>

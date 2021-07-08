@@ -6,7 +6,6 @@
 .BestSeller__Flex {
   display: flex;
   justify-content: center;
-
   gap: 1rem;
 }
 .BestSeller__FlexItem {

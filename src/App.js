@@ -5,6 +5,7 @@ import BowlingScreen from "./Screens/BowlingScreen/BowlingScreen";
 import ClothingScreen from "./Screens/ClothingScreen/ClothingScreen";
 import WicketKeepingScreen from "./Screens/WicketKeepingScreen/WicketKeepingScreen";
 import AccessoriesScreen from "./Screens/AccessoriesScreen/AccessoriesScreen";
+import ProductScreen from "./Screens/ProductScreen/ProductScreen";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Route exact path="/WicketKeeping" component={WicketKeepingScreen} />
       <Route exact path="/Clothing" component={ClothingScreen} />
       <Route exact path="/Accessories" component={AccessoriesScreen} />
+      <Route exact path="/Product/:ID" component={ProductScreen} />
     </Router>
   );
 };
